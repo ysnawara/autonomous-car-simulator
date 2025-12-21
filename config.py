@@ -1,0 +1,47 @@
+"""
+Configuration settings for the autonomous car simulation
+"""
+
+# Window settings
+WINDOW_WIDTH = 1920
+WINDOW_HEIGHT = 1080
+FPS = 60
+
+# Colors (RGB) - Modern dark theme
+BLACK = (15, 15, 20)
+WHITE = (255, 255, 255)
+GRAY_DARK = (30, 30, 40)
+GRAY_MID = (50, 55, 65)
+GRAY_LIGHT = (80, 85, 95)
+
+# Accent colors
+ACCENT_BLUE = (59, 130, 246)
+ACCENT_GREEN = (34, 197, 94)
+ACCENT_YELLOW = (250, 204, 21)
+ACCENT_RED = (239, 68, 68)
+ACCENT_PURPLE = (168, 85, 247)
+ACCENT_CYAN = (6, 182, 212)
+
+# Track colors
+TRACK_ASPHALT = (40, 42, 48)
+TRACK_CURB_INNER = ACCENT_RED
+TRACK_CURB_OUTER = (255, 255, 255)
+BOUNDARY_COLOR = ACCENT_GREEN
+BOUNDARY_WIDTH = 5
+ROAD_WIDTH = 120
+GRASS_GREEN = (34, 85, 55)
+
+# Car settings
+CAR_LENGTH = 35
+CAR_WIDTH = 18
+CAR_COLOR = ACCENT_BLUE
+MAX_SPEED = 50.0
+MIN_SPEED = 1.5
+MAX_STEERING_ANGLE = 45
+WHEELBASE = 28
+
+# Controller settings
+LOOK_AHEAD_DISTANCE = 70
+
+# Vision settings
+VISION_RANGE = 150
